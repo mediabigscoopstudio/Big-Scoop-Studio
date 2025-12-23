@@ -130,7 +130,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",   # source files (your current static folder)
 ]
 
-#STATIC_ROOT = BASE_DIR / "staticfiles"  # collectstatic output
+STATIC_ROOT = BASE_DIR / "staticfiles"  # collectstatic output
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
